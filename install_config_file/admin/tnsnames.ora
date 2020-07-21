@@ -15,9 +15,9 @@ LISTENER_ITPUXDB =
 
 itpuxpdb =
   (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracledb)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.12)(PORT = 1521))
     (CONNECT_DATA =
       (SERVER = DEDICATED)
-      (SERVICE_NAME = itpuxpdb)	
+      (SERVICE_NAME = ITPUXPDB)	
     )
   )
